@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-site {
+    background-color: #fff5f8; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.logo-img {
+    height: 60px;
+    width: auto; 
+    display: block;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Espaçamento entre os links */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6b81; /* Cor de destaque ao passar o mouse */
+}
+
+main {
+    /* Aqui eu defini a imagem de fundo da main */
+    background-image: url(Imagens/picoleamarelo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 80px 20px 20px 20px; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+section{
+    
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: right;
+    max-width: 450px;
+    line-height: 1.2;
+}
+footer{
+    color: black;
+    background-color:  #B98B6A;
+    padding: 20px 0;
+    text-align: center;
+}
